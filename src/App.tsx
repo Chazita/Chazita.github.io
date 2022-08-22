@@ -36,7 +36,19 @@ function App() {
 				withGlobalStyles
 				withNormalizeCSS
 			>
-				<Suspense fallback={<LoadingOverlay visible={true} />}>
+				<Suspense
+					fallback={
+						<LoadingOverlay
+							visible={true}
+							overlayOpacity={10}
+							loaderProps={{
+								size: "lg",
+								color: colorScheme === "dark" ? "white" : "dark",
+								variant: "dots",
+							}}
+						/>
+					}
+				>
 					<TitleProvider value={{ setTitle, title }}>
 						<BrowserRouter>
 							<Layout>
