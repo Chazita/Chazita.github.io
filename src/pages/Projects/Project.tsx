@@ -78,7 +78,6 @@ function Project() {
 			],
 			technologies: FAST_DRINK_FRONT_TECH,
 			githubPath: "https://github.com/Chazita/fastdrink-frontends",
-			websitePath: "https://fastdrink-frontends-ecommerce.vercel.app/",
 		},
 		{
 			title: t("fast-drink-admin.title"),
@@ -87,7 +86,6 @@ function Project() {
 			images: [Admin1Image, Admin2Image, Admin3Image, Admin4Image],
 			technologies: FAST_DRINK_FRONT_TECH,
 			githubPath: "https://github.com/Chazita/fastdrink-frontends",
-			websitePath: "https://fastdrink-frontends-dashboard.vercel.app/",
 		},
 		{
 			title: t("fast-drink-api.title"),
@@ -105,7 +103,6 @@ function Project() {
 				/>,
 			],
 			githubPath: "https://github.com/Chazita/fastdrink-backend",
-			websitePath: "https://fast-drink-api.herokuapp.com/swagger/index.html",
 		},
 	];
 
