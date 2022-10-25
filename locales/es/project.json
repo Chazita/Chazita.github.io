@@ -1,0 +1,25 @@
+{
+	"title": "Projectos",
+	"content": "Algunos proyectos personales y prácticos.",
+	"head": "Project",
+	"about": "Acerca De",
+	"development": "Desarrollo",
+	"technologies": "Tecnologías",
+	"github": "Ir a Github",
+	"website": "Ir al Sitio Web",
+	"fast-drink-ecommerce": {
+		"title": "Fast Drink - Ecommerce",
+		"about": "Ecommerce website en el que se puede comprar, registrarse/iniciar sesión y ver los productos listados.",
+		"development": "Está  hecho con Next.Js, utiliza Fast Drink - Api. La UI que utliza es chakra ui.React query para las queries del backend y Turborepo para gestionar el repositorio."
+	},
+	"fast-drink-admin": {
+		"title": "Fast Drink - Admin Dashboard",
+		"about": "Panel de administrador que tiene CRUD para productos, marcas y pedidos.",
+		"development": "Esta hecho con Next.Js, utiliza Fast Drink - Api. La UI que utliza es chakra ui.React query para las queries del backend y Turborepo para gestionar el repositorio."
+	},
+	"fast-drink-api": {
+		"title": "Fast Drink - Api",
+		"about": "Una Rest Api básica para un ecommerce de bebidas. Puede gestionar Auth en cookie, CRUD de productos , Pedidos, Marca y Contenedor.",
+		"development": "Es una idea básica de un ecommerce hecho en .NET 6 y utiliza Automapper, EntityFramework 6, MediatR, Cloudinary y HashidsNet. Utiliza la arquitectura Clean Architecture y tiene una prueba de integration hecha en XUnit."
+	}
+}
